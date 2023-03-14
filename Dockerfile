@@ -32,4 +32,4 @@ RUN bundle config --global frozen 1 \
 COPY . $APP_ROOT
 
 # Startup
-CMD [ "bundle", "exec", "jekyll", "serve", "--force_polling", "-H", "0.0.0.0", "-P", "4000" ]
+CMD [ "bundle", "exec", "jekyll", "serve", "--force_polling", "-H", "0.0.0.0", "-P", "5000" ]
