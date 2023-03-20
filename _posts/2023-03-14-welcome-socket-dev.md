@@ -6,7 +6,7 @@ date: 2023-03-14 17:45 +0000
 
 _Last year Open Source Collective announced that we were building shared infrastructure for a growing community of researchers, policymakers, funders and developers seeking to identify, secure and sustain crtitical open source components. Today we welcome [Socket](https://socket.dev) as our first partner and customer._
 
-## What is Ecosyte.ms?
+## What is Ecosyste.ms?
 
 Ecosystems is a set of free and open resources about the production, distribution, and use of open source software. It comprises a structured dataset, released periodically for researchers, funders, and policymakers, and a set of tools and services for application developers. Today Ecosystems combines data on 6m+ open source components from over 30 package registries with over 100m dependent repositories on GitHub, GitLab, and BitBucket. With this data we create a map of open source interdependency from which we can infer much about the state of the open source infrastrcuture on which we all depend. 
 
