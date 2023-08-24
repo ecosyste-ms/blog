@@ -1,4 +1,4 @@
-FROM ruby:3.2.1-alpine
+FROM ruby:3.2.2-alpine
 
 ENV APP_ROOT /usr/src/app
 WORKDIR $APP_ROOT
@@ -15,8 +15,6 @@ RUN apk add --update \
     curl-dev \
     libc6-compat \
  && rm -rf /var/cache/apk/* 
-
-RUN curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
 
 # Will invalidate cache as soon as the Gemfile changes
 COPY Gemfile Gemfile.lock $APP_ROOT/
