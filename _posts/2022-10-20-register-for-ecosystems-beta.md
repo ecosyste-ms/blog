@@ -14,7 +14,7 @@ Principally Ecosyste.ms provides a comprehensive, structured, and open dataset a
 
 Over the past six months Andrew (otherwise known as @teabass) has been single-handedly building a library of services, indexing millions of open source packages and the repositories that depend upon them. These services include:
 
-* [Packages](https://packages.ecosyste.ms/?ref=open-collective): query package, version and dependency metadata many open source software ecosystems and registries.
+* [Packages](https://packages.ecosyste.ms/?ref=open-collective): query package, version and dependency metadata of many open source software ecosystems and registries.
 * [Repos](https://repos.ecosyste.ms/?ref=open-collective): query repository metadata for many open source software ecosystems.
 * [Resolve](https://resolve.ecosyste.ms/?ref=open-collective): resolve dependency trees of packages for many open source software ecosystems.
 * [Parser](https://parser.ecosyste.ms/?ref=open-collective): parsing dependency metadata from many open source software ecosystems manifest files.
