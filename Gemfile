@@ -24,4 +24,4 @@ end
 gem 'sass-embedded'
 
 gem 'jekyll-compose', group: [:jekyll_plugins]
-gem 'jekyll-analytics'
+gem "jekyll-analytics", git: 'https://github.com/hendrikschneider/jekyll-analytics'

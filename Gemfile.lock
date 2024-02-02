@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/hendrikschneider/jekyll-analytics
+  revision: 40e09570dea80e3a9ecb0ad796aad1c434ff067c
+  specs:
+    jekyll-analytics (0.1.12)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -31,7 +37,6 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-analytics (0.1.14)
     jekyll-compose (0.12.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-feed (0.17.0)
@@ -84,7 +89,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.3.2)
-  jekyll-analytics
+  jekyll-analytics!
   jekyll-compose
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
