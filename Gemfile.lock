@@ -83,16 +83,12 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.2)
   jekyll-analytics
   jekyll-compose
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
   sass-embedded
-  tzinfo (>= 1, < 3)
-  tzinfo-data
-  wdm (~> 0.1.1)
 
 RUBY VERSION
    ruby 3.3.0p0
