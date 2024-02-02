@@ -31,6 +31,7 @@ github_username:  ecosyste-ms
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-analytics
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,3 +52,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+jekyll_analytics:
+  Plausible:
+    domain: 'blog.ecosyste.ms'
+    source: 'https://plausible.ecosyste.ms/js/script.js'
