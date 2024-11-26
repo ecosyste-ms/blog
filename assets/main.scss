@@ -52,13 +52,16 @@ $transition-collapse: height .35s ease;
   ) {
     color: $text-color;
     text-decoration: none !important;
-    box-shadow: inset 0 -0.3em 0 $hover-color;
+    box-shadow: inset 0 -0.3rem 0 $hover-color;
     transition: $transition-duration;
 
   &:hover,
   &:active,
   &:focus {
     box-shadow: inset 0 -1em 0 $hover-color;
+    color: $text-color;
+  }
+  &:visited {
     color: $text-color;
   }
 }
@@ -91,7 +94,8 @@ body {
   font-optical-sizing: auto;
 }
 
-.header {
+.site-header {
+  padding: 2em 0;
   h1 {
     font-size: 1em;
     line-height: 1;
@@ -158,7 +162,6 @@ body {
 
 /*  Header */
 header {
-  padding: 2em 0;
   border: none !important;
 }
 
@@ -208,6 +211,91 @@ header {
   }
 }
 
+
+  /* minima overrides */
+
 .post-list-heading{
   display: none;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  margin-bottom: 0.6667rem;
+  margin-top: 2rem;
+}
+
+h1, .h1 {
+  font-size: $h1-font-size;
+}
+
+h2, .h2 {
+  font-size: $h2-font-size;
+}
+
+h3, .h3 {
+  font-size: $h3-font-size;
+}
+
+h4, .h4 {
+  font-size: $h4-font-size;
+}
+
+body {
+  line-height: $line-height-base;
+  font-size: $font-size-base;
+}
+
+p, blockquote, pre, ul, ol, dl, figure, .highlight {
+  margin-bottom: 1rem
+}
+
+.post-title {
+  font-size: 4rem;
+  font-weight: $display-font-weight;
+  line-height: $headings-line-height;
+  list-style: none;
+}
+
+.post-meta {
+  font-size: $font-size-small;
+  color: $color-black;
+  
+} 
+
+.post-header {
+  .post-meta {
+    @media (min-width: 1044px) {
+      position: relative;
+      top: 55px;
+    }
+  }
+}
+
+.post-content {
+  a {
+    @include spesh-link();
+  }
+}
+
+.post-link {
+  @include spesh-link();
+  display: inline-block;
+}
+
+
+.post-list {
+  h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.wrapper {
+  max-width: calc(1140px - 30px*2);
+}
+
+.post-content {
+  max-width: calc(800px - 30px*2);
+  margin: 0 auto;
 }
