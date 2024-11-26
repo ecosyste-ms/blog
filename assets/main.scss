@@ -6,6 +6,8 @@
 @use "minima" as *;
 
 /* Variables */
+
+/* Colors */
 $color-purple: #7878EF;
 $color-purple-light: #BBBBFF;
 $color-purple-dark: #5C5CCF;
@@ -20,13 +22,64 @@ $color-green-dark: #2EAF6B;
 
 $color-black: #1D1D28;
 $color-white: #FFFFFF;
+$color-light-grey: #F5F5FA;
+$color-grey: #DCDCE0;
 
+/* Typography */
 $font-family-base: "Inter", sans-serif;
 $font-size-base: 1.125rem; //18px
-$line-height-base: 1.3334;
-$body-font-weight: 400;
+$font-size-small: 0.88889rem; //16px
 
-.text-decoration-hover{
+$line-height-base: 1.3334;
+$headings-line-height: 1.25;
+
+$h1-font-size: 2.9375rem; //47px
+$h2-font-size: 2.1875rem; //35px
+$h3-font-size: 1.625rem; //26px
+$h4-font-size: 1.25rem; //20px
+
+$body-font-weight: 400;
+$headings-font-weight: 700;
+$display-font-weight: 900;
+$lead-font-weight: 400;
+
+$transition-collapse: height .35s ease;
+
+@mixin spesh-link (
+  $text-color: $color-black, 
+  $hover-color: $color-green, 
+  $transition-duration: 250ms
+  ) {
+    color: $text-color;
+    text-decoration: none !important;
+    box-shadow: inset 0 -0.3em 0 $hover-color;
+    transition: $transition-duration;
+
+  &:hover,
+  &:active,
+  &:focus {
+    box-shadow: inset 0 -1em 0 $hover-color;
+    color: $text-color;
+  }
+}
+
+/* Global selection style */
+::selection {
+  background-color: $color-purple-light;
+}
+
+::-moz-selection {
+  background-color: $color-purple-light;
+}
+
+.container {
+  @media (max-width: 767px) { 
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.text-decoration-hover {
   text-decoration: none;
   &:hover{
     text-decoration: underline;
@@ -34,8 +87,31 @@ $body-font-weight: 400;
 }
 
 body {
+  font-family: $font-family-base;
   font-optical-sizing: auto;
-  font-family: 'Inter', sans-serif;
+}
+
+.header {
+  h1 {
+    font-size: 1em;
+    line-height: 1;
+  }
+}
+
+.navigation-bar {
+  a {
+    @include spesh-link();
+    padding: 0;
+  }
+  li {
+    padding: 8px 16px;
+  }
+}
+
+.nav {
+  @media (min-width: 768px) { 
+    justify-content: end;
+  }
 }
 
 .site-logo {
@@ -57,6 +133,7 @@ body {
   background-image: url("/assets/images/ecosystems-logo-white.svg");
 }
 
+
 .dark-section {
   background-color: $color-purple-dark;
   color: $color-white;
@@ -64,12 +141,19 @@ body {
     color: $color-white;
     &:hover,
     &:active,
-    &:focus 
+    &:focus, 
     &:visited {
       color: $color-white;
     }
     
   }
+}
+.extra-bold {
+  font-weight: 900;
+}
+
+.extra-small {
+  font-size: 0.778rem;
 }
 
 /*  Header */
@@ -82,6 +166,31 @@ header {
 .footer {
   padding: 2em 0;
   margin-top: 4em;
+}
+
+.footer-links {
+  margin-top: 1rem;
+  @media (min-width: 768px) {
+    text-align: right;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    margin-bottom: 0.25rem;
+  }
+}
+
+.footer-icons {
+  margin-top: 1em;
+  a {
+    margin: 0 0.5em;
+    text-decoration: none;
+  }
+}
+
+.lead {
+  font-size: 1.625rem;
 }
 
 .footer-links {
