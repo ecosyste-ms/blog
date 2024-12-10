@@ -26,11 +26,19 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ecosyste_ms
 github_username:  ecosyste-ms
+logo: /assets/images/favicon.png
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/social-share.png
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 sass:
   sass_dir: _sass
