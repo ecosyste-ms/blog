@@ -28,3 +28,4 @@ gem 'jekyll-seo-tag', group: [:jekyll_plugins]
 
 gem 'csv'
 gem 'logger'
+gem 'base64'
