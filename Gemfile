@@ -25,3 +25,6 @@ gem 'sass-embedded'
 
 gem 'jekyll-compose', group: [:jekyll_plugins]
 gem 'jekyll-seo-tag', group: [:jekyll_plugins]
+
+gem 'csv'
+gem 'logger'
