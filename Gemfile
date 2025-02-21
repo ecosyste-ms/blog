@@ -21,6 +21,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 
+gem 'google-protobuf', force_ruby_platform: RUBY_PLATFORM.include?('linux-musl')
 gem 'sass-embedded'
 
 gem 'jekyll-compose', group: [:jekyll_plugins]

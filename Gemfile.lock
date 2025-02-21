@@ -132,6 +132,7 @@ PLATFORMS
 DEPENDENCIES
   base64
   csv
+  google-protobuf
   jekyll (~> 4.3.2)
   jekyll-compose
   jekyll-feed (~> 0.12)
