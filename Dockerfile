@@ -1,6 +1,6 @@
-FROM ruby:3.4.1-alpine
+FROM ruby:3.4.2-alpine
 
-ENV APP_ROOT /usr/src/app
+ENV APP_ROOT=/usr/src/app
 WORKDIR $APP_ROOT
 
 # * Setup system
@@ -14,6 +14,8 @@ RUN apk add --update \
     curl \
     curl-dev \
     libc6-compat \
+    yaml-dev \
+    libffi-dev \
  && rm -rf /var/cache/apk/* 
 
 # Will invalidate cache as soon as the Gemfile changes
