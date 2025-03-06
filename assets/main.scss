@@ -22,7 +22,11 @@ $breakpoint-xl: 1200px;
 }
 
 @mixin media-breakpoint-up($breakpoint-name) {
-  @if $breakpoint-name == lg {
+  @if $breakpoint-name == md {
+    @media (min-width: $breakpoint-md) {
+      @content;
+    }
+  } @else if $breakpoint-name == lg {
     @media (min-width: $breakpoint-lg) {
       @content;
     }
@@ -32,6 +36,7 @@ $breakpoint-xl: 1200px;
     }
   }
 }
+
 
 // Custom asset-url function that returns the paths needed for Jekyll
 @function asset-url($file) {
@@ -50,7 +55,7 @@ $breakpoint-xl: 1200px;
 
 /* Colors */
 $color-purple: #7878EF;
-$color-purple-light: #5d5d78;
+$color-purple-light: #BBBBFF;
 $color-purple-dark: #5C5CCF;
 
 $color-orange: #FF807D;
@@ -819,6 +824,30 @@ body {
 }
 
 /* blog styles start here */
+
+/* Fixes for local styles and _base.scss interacting */
+
+body {
+  font-family: $font-family-base;
+  font-optical-sizing: auto;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  font-weight: 700;
+}
+
+.header__global__menu__category-links a {
+  text-decoration: underline;
+}
+
+.header__local__homelink {
+  &:hover {
+    text-decoration: none;
+  }
+  &:visited {
+    color: $color-purple-dark;
+  }
+}
 
 /* minima overrides */
 
