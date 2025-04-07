@@ -20,7 +20,7 @@ Once again for those in the back: Sponsor the technology you depend upon, we'll 
 
 Find an ecosystem [using our search](https://funds.ecosyste.ms/funds/all) and donate a single or recurring sponsorship. We handle everything else. We'll direct your money (minus a 10% management fee) to maintainers, using the tools they have chosen to manage their finances. We allocate 100% of the donations in every fund with a balance of $1,000 or more, on a monthly basis. Every donation and payment is traceable through both Ecosystem Funds and Open Collective. 
 
-Donations can be made directly through funds.ecosyste.ms or, if you have an account, on Open Collective. Companies who wish to make a large donation, or start a Fund of their own, can [request an Invoice from Open Source Collective](mailto://hello@oscollective.org) — who are already an approved vendor to most large open-source-supporting organisations. 
+Donations can be made directly through funds.ecosyste.ms or, if you have an account, on Open Collective. Companies who wish to make a large donation, or start a Fund of their own, can [request an Invoice from Open Source Collective](mailto:hello@oscollective.org) — who are already an approved vendor to most large open-source-supporting organisations. 
 
 ### What's next?
 
