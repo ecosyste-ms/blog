@@ -60,8 +60,6 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-sitemap (1.4.0)
-      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.5.1)
@@ -143,11 +141,9 @@ DEPENDENCIES
   csv
   google-protobuf
   jekyll (~> 4.3.4)
-  jekyll (~> 4.3.4)
   jekyll-compose
   jekyll-feed (~> 0.12)
   jekyll-seo-tag
-  jekyll-sitemap
   jekyll-sitemap
   logger
   minima (~> 2.5)
@@ -166,10 +162,12 @@ CHECKSUMS
   ffi (1.17.1-arm-linux-gnu) sha256=fe14f5ece94082f3b0e651a09008113281f2764e7ea95f522b64e2fe32e11504
   ffi (1.17.1-arm-linux-musl) sha256=df14927ca7bd9095148a7d1938bb762bbf189d190cf25d9547395ec7acc198a0
   ffi (1.17.1-arm64-darwin) sha256=a8e04f79d375742c54ee7f9fff4b4022b87200a4ec0eb082128d3b6559e67b4d
+  ffi (1.17.1-x64-mingw-ucrt) sha256=da79a832aee7ccd3635b4ec5e8a1927aed786e7ea03f2e33e2c06ea4fcece4a0
   ffi (1.17.1-x86_64-linux-gnu) sha256=8c0ade2a5d19f3672bccfe3b58e016ae5f159e3e2e741c856db87fcf07c903d0
   forwardable-extended (2.6.0) sha256=1bec948c469bbddfadeb3bd90eb8c85f6e627a412a3e852acfd7eaedbac3ec97
   google-protobuf (4.30.2) sha256=0f35168dbeeccf13d928acf6c128cfec17b9a826ae4505246a02c115f4ae16ed
   google-protobuf (4.30.2-arm64-darwin) sha256=c66a93ceef100fb2390615e76310491cc6e1944f7b9cda2cf1e3279887f817d1
+  google-protobuf (4.30.2-x64-mingw-ucrt) sha256=2b077c8a36ba23084a7b8dbc142686771aaa87684c0cd9583b5778fa1efa49fc
   google-protobuf (4.30.2-x86_64-linux) sha256=c96993d98732ea185d98279f6c76e130eb9595437dda39610b3398c9e348518e
   http_parser.rb (0.8.0) sha256=5a0932f1fa82ce08a8516a2685d5a86031c000560f89946913c555a0697544be
   i18n (1.14.7) sha256=ceba573f8138ff2c0915427f1fc5bdf4aa3ab8ae88c8ce255eb3ecf0a11a5d0f
@@ -205,6 +203,7 @@ CHECKSUMS
   sass-embedded (1.86.3-riscv64-linux-android) sha256=758663e7e9e2a51d30f9602b81fb30ca4c11ed89e44d0fd0d1a4e883f919e28b
   sass-embedded (1.86.3-riscv64-linux-gnu) sha256=11a75a50aebb19264a05e331e960b12f01db7237f2380a110b66a44b14973fb9
   sass-embedded (1.86.3-riscv64-linux-musl) sha256=f63e385d938b9f6387dc8d20bbbd91e75616deb3c76d51d18f8948321e802349
+  sass-embedded (1.86.3-x64-mingw-ucrt) sha256=816bfd20eb3100e9333cbdb873d9c3f31def9d8d1794fb7eed05f639ab2965e5
   sass-embedded (1.86.3-x86_64-linux-android) sha256=f3e8d3f579811ef61ee89eb5608c4b5070322d2d942f420aa2a2368dec8f9f76
   sass-embedded (1.86.3-x86_64-linux-gnu) sha256=7a62a2e706a457e063f2877a6953c1ae8fed60ffee312bcf3969810d54bd9b5f
   terminal-table (3.0.2) sha256=f951b6af5f3e00203fb290a669e0a85c5dd5b051b3b023392ccfd67ba5abae91
