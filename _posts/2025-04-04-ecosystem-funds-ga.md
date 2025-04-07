@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Ecosystem Funds is Generally Available"
+date: 2025-04-04 17:05 +0000
+---
+
 __Today Open Source Collective and ecosyste.ms are launching Funds supporting 291 Open Source Ecosystems. Unsurprisingly, we call them Ecosystem Funds.__
 
 A few, short weeks before the holidays we announced [Ecosystem Funds](https://opencollective.com/opensource/updates/ecosystem-funds-curated-support-for-your-critical-software-dependencies); a collaboration between Open Source Collective and ecosyste.ms that makes it easier to support your critical software dependencies. 
