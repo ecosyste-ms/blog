@@ -6,13 +6,15 @@ date: 2025-06-09 17:00 +0000
 
 __This post first appeared on the [Open Source Pledge Blog](https://opensourcepledge.com/blog/we-should-fund-the-software-we-use/). Thank you to Chad, Sentry, and all the other Open Source Pledge members.__
 
-At FOSDEM this year Ben (Open Source Collective) and Andrew (ecosyste.ms) [pspoke about a decade of working together](https://fosdem.org/2025/schedule/event/fosdem-2025-5576-open-source-funding-you-re-doing-it-wrong/) in open source sustainability and ‘digital infrastructure’.
+At FOSDEM this year Ben (Open Source Collective) and Andrew (ecosyste.ms) [spoke about a decade of working together](https://fosdem.org/2025/schedule/event/fosdem-2025-5576-open-source-funding-you-re-doing-it-wrong/) in open source sustainability and ‘digital infrastructure’.
 
 In that time they’ve built tools ([libraries.io](https://libraries.io), [octobox.io](https://octobox.io), [24pullrequests.com](https://24pullrequests.com)/) to help Open Source developers directly and, most recently, a set of digital services and data sets to aid and accelerate the work of policymakers, researchers and developers building toward a secure and sustainable future for open source, called [ecosyste.ms](https://ecosyste.ms).
 
 Their most recent release, [Ecosystem Funds](https://funds.ecosyste.ms), was built atop these services, in a matter of weeks, as a direct response to the Open Source Pledge. So we thought we’d invite them to tell us what it is, and why they’ve spent the past six months perfecting their process — including the distribution of $75k of funding from Sentry.
 
-- Chad
+— Chad
+
+
 
 ---
 

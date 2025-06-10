@@ -913,6 +913,9 @@ p, blockquote, pre, ul, ol, dl, figure, .highlight {
   a {
     @include spesh-link();
   }
+  hr {
+    margin: 3rem 0;
+  }
 }
 
 .post-link {
