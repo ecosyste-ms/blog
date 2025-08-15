@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building On ecosyste.ms"
+title: "Building on ecosyste.ms"
 date: 2025-08-15 14:01 +0000
 ---
 
@@ -28,6 +28,6 @@ Happily we are working with a non-profit organisation to fund the next phase of 
 
 If that is of interest to you or your organisation [contact us](hello@ecosyste.ms) and we’ll include you in the development process. In the meantime you can support the project by:
 
-👩‍💻 [Contributing to ecosyste.ms on GitHub](https://github.com/ecosyste-ms)
-🤝 [Purchasing a data licence](https://ecosyste.ms/commercial)
+👩‍💻 [Contributing to ecosyste.ms on GitHub](https://github.com/ecosyste-ms) </br>
+🤝 [Purchasing a data licence](https://ecosyste.ms/commercial) </br>
 🙏 [Donating on Open Collective](https://opencollective.com/ecosystems)
