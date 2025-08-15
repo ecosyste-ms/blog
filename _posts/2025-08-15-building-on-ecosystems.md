@@ -14,20 +14,20 @@ But all is not well.
 
 ### Licensing in support of a common goal
 
-ecosyste.ms was developed with a simple goal: to build shared infrastructure for those seeking to create a sustainable and secure foundation of open source software. Infrastructure for infrastructure, if you will. This ethos extends to ecosyste.ms itself: our code and data are licensed [AGPL](https://github.com/ecosyste-ms/documentation/blob/main/LICENSE) and [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) respectively) to ensure that the community can use the services we provide, free of charge, if they contribute their work back to that same community. 
+ecosyste.ms was developed with a simple goal: to build shared infrastructure for those seeking to create a sustainable and secure foundation of open source software. Infrastructure for infrastructure, if you will. This ethos extends to ecosyste.ms itself: our code and data are licensed ([AGPL](https://github.com/ecosyste-ms/documentation/blob/main/LICENSE) and [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) respectively) to ensure that the community can use the services we provide, free of charge, if they contribute their work back to that same community. 
 
-That said, we know that commercial organisations have an important role to play in achieving our goal. So, for those that wish to operate an instance of ecosyste.ms or utilise ecosyste.ms’ data for their own use, we offer less restrictive licences, available to purchase through our non-profit host Open Source Collective, who are registered vendors to most large open-source supporting organisations - just [email us](mailto:commercial@ecosyste.ms) to discuss terms. 
+That said, we know that commercial organisations have an important role to play in achieving our goal. So, for those that wish to operate an instance of ecosyste.ms or utilise ecosyste.ms’ data for their own use, we offer less restrictive licences, available to purchase through our non-profit host Open Source Collective (OSC). OSC are registered vendors to most large open-source supporting organisations - just [email us](mailto:commercial@ecosyste.ms) to discuss terms. 
 
 And that’s just the beginning
 
 ### Building on ecosyste.ms success
 
-ecosyste.ms is at capacity, both in terms of our ability to serve traffic, and to build the services we believe our users need. Revenues from licence sales are no longer covering the costs of hosting a service, storing terabytes of data, and serving 12m unique users every month. On top of this our users are asking for higher rate limits, priority traffic, and more data. 
+ecosyste.ms is at capacity, both in terms of our ability to serve traffic, and to build the services we believe our users need. Revenues from licence sales are no longer covering the costs of hosting a service storing terabytes of data and serving 12m unique users every month. On top of this our users are asking for higher rate limits, priority traffic, and more data. 
 
 Happily we are working with a non-profit organisation to fund the next phase of ecosyste.ms’ development, which we hope to announce soon. Development will focus on traffic management, documentation, developer experience, a new plugin architecture, and a pubsub pipeline that allows users to process data for their own use, or contribute analysis back to the commons. 
 
 If that is of interest to you or your organisation [contact us](hello@ecosyste.ms) and we’ll include you in the development process. In the meantime you can support the project by:
 
-👩‍💻 [Contributing to ecosyste.ms on GitHub](https://github.com/ecosyste-ms) </br>
-🤝 [Purchasing a data licence](https://ecosyste.ms/commercial) </br>
+👩‍💻 [Contributing to ecosyste.ms on GitHub](https://github.com/ecosyste-ms) <br/>
+🤝 [Purchasing a data licence](https://ecosyste.ms/commercial) <br/>
 🙏 [Donating on Open Collective](https://opencollective.com/ecosystems)
