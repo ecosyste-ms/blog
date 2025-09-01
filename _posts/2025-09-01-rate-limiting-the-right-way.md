@@ -17,7 +17,7 @@ Inspired by [OpenAlex](https://blog.ecosyste.ms/2025/08/15/building-on-ecosystem
 The polite pool will have more consistent response times, ‘it’s where you want to be’ as OpenAlex say. In order to get into the polite pool you will need to provide a contact email address, so that we can contact you should we need to rate limit or block your access. You can do this by:
 
 - adding `mailto=you@example.com` as a parameter to your API request, like this: 
-- Add `mailto:you@exaple.com` somewhere in your user-agent request header
+- Add `mailto:you@exmaple.com` somewhere in your user-agent request header
 
 The common pool is for everyone else. It will have less consistent response times, especially during peak periods as we serve polite requests more frequently. 
 
