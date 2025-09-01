@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building on ecosyste.ms"
+title: "Rate limiting: the right way..."
 date: 2025-09-01 14:00 +0000
 ---
 
