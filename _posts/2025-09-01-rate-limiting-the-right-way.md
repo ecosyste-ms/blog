@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rate limiting: the right way..."
-date: 2025-09-01 14:00 +0000
+date: 2025-09-01 11:00 +0000
 ---
 
 __To bring the traffic down to sustainable levels and encourage efficient and responsible use we will be introducing rate limits across our services.__
