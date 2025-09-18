@@ -12,7 +12,7 @@ As we mentioned last week: ecosyste.ms is at capacity. Revenues and donations to
 
 ### What you need to do:
 
-Inspired by [OpenAlex](https://blog.ecosyste.ms/2025/08/15/building-on-ecosystems.html), who themselves were inspired by Crossref, we’re going to split API users into two pools: the polite pool, and the common pool. 
+Inspired by [OpenAlex](https://docs.openalex.org/how-to-use-the-api/rate-limits-and-authentication#the-polite-pool), who themselves were inspired by Crossref, we’re going to split API users into two pools: the polite pool, and the common pool.
 
 The polite pool will have more consistent response times, ‘it’s where you want to be’ as OpenAlex say. In order to get into the polite pool you will need to provide a contact email address, so that we can contact you should we need to rate limit or block your access. You can do this by:
 
