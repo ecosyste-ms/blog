@@ -35,4 +35,4 @@ Ecosystem Dashboards is built on [ecosyste.ms](http://ecosyste.ms), the world’
 
 Ecosystem Dashboards are a **free** resource for maintainers, program managers, researchers and policymakers, supported financially by a small group of sponsor organisations like Open Source Collective.
 
-👩‍💻 [Check out Ecosystem Dashboards](https://dashbords.ecosyste.ms)
+👩‍💻 [Check out Ecosystem Dashboards](https://dashboards.ecosyste.ms)
