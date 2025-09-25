@@ -4,7 +4,7 @@ title: "Ecosystem Dashboards: Measure What Matters"
 date: 2025-09-25 11:00 +0000
 ---
 
-__Today we launch a free tool to help you understand the impact of your open source software contributions: [Ecosystem Dashboards](https://dashboard.ecosyste.ms)__
+__Today we launch a free tool to help you understand the impact of your open source software contributions: [Ecosystem Dashboards](https://dashboards.ecosyste.ms)__
 
 Earlier this year we launched [Ecosystem Funds](https://funds.ecosyste.ms), a way to support all your critical software dependencies. We packaged millions of the most critical open source components into a few hundred Funds, each centred on a language, framework, or package, turning [a process that can take months](https://opensource.microsoft.com/blog/2024/06/27/5-things-we-learned-from-sponsoring-a-sampling-of-our-open-source-dependencies/) into a five minute conversation with your CTO.
 
@@ -35,4 +35,4 @@ Ecosystem Dashboards is built on [ecosyste.ms](http://ecosyste.ms), the world’
 
 Ecosystem Dashboards are a **free** resource for maintainers, program managers, researchers and policymakers, supported financially by a small group of sponsor organisations like Open Source Collective.
 
-👩‍💻 [Check out Ecosystem Dashboards](https://dashbord.ecosyste.ms)
+👩‍💻 [Check out Ecosystem Dashboards](https://dashbords.ecosyste.ms)
