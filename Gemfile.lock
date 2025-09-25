@@ -84,7 +84,7 @@ GEM
     rb-inotify (0.11.1)
       ffi (~> 1.0)
     rexml (3.4.4)
-    rouge (4.6.0)
+    rouge (4.6.1)
     safe_yaml (1.0.5)
     sass-embedded (1.93.2)
       google-protobuf (~> 4.31)
@@ -191,7 +191,7 @@ CHECKSUMS
   rb-fsevent (0.11.2) sha256=43900b972e7301d6570f64b850a5aa67833ee7d87b458ee92805d56b7318aefe
   rb-inotify (0.11.1) sha256=a0a700441239b0ff18eb65e3866236cd78613d6b9f78fea1f9ac47a85e47be6e
   rexml (3.4.4) sha256=19e0a2c3425dfbf2d4fc1189747bdb2f849b6c5e74180401b15734bc97b5d142
-  rouge (4.6.0) sha256=10198622df0ef919796da5686a9cc116a49280805e1ed4b851c97ef677eddd7a
+  rouge (4.6.1) sha256=5075346d5797d6864be93f7adc75a16047a7dbfa572c63c502419ffa582c77de
   safe_yaml (1.0.5) sha256=a6ac2d64b7eb027bdeeca1851fe7e7af0d668e133e8a88066a0c6f7087d9f848
   sass-embedded (1.93.2) sha256=b45c7d6eb07f7a92bb921106711efb4f51e74208913db9ed37770ae9887d21be
   sass-embedded (1.93.2-aarch64-linux-android) sha256=a56115e2c0c7b4befa38925169abd0ad363c0fdeed1fdb56014f37615136925e
