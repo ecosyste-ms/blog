@@ -40,6 +40,6 @@ Feeds are organized by language and ecosystem.
 
 ## Contributing
 
-These repositories collect what I've learned while researching the space. If you're building parsers, SBOM generators, or tools that work across package ecosystems, these might be useful references.
+These repositories collect what we've learned while researching the space. If you're building parsers, SBOM generators, or tools that work across package ecosystems, these might be useful references.
 
 All five repositories are released under CC0 1.0 Universal and accept contributions if you have corrections or additions.
