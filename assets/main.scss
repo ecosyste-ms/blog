@@ -903,8 +903,9 @@ p, blockquote, pre, ul, ol, dl, figure, .highlight {
 .post-header {
   .post-meta {
     @media (min-width: 1044px) {
-      position: relative;
-      top: 55px;
+      margin-top: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 3px solid $color-grey-light;
     }
   }
 }
@@ -935,6 +936,7 @@ p, blockquote, pre, ul, ol, dl, figure, .highlight {
   max-width: calc(1140px - 30px*2);
 }
 
+.post-meta,
 .post-content {
   max-width: calc(800px - 30px*2);
   margin: 0 auto;
