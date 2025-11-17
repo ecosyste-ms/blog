@@ -4,9 +4,11 @@ title: "Documenting Package Manager Data"
 date: 2025-11-17 12:00 +0000
 ---
 
-Information about package managers is spread out across different sources, formats, and documentation styles. This makes it harder to understand how different package managers work, compare approaches across ecosystems, and identify common patterns that could inform better practices.
+Package managers are the quiet workhorses of computing. They make installing software on a machine trivial, but they have their differences, and as recent events have shown, those differences can lead to vulnerabilities and provide opportunities for attackers to disrupt public and private services alike.
 
-We've been working with the [CHAOSS Package Metadata Working Group](https://github.com/chaoss/wg-package-metadata) and [Alpha-Omega](https://alpha-omega.dev) to document the similarities and differences across package manager clients and registries. Last week we published five repositories documenting different aspects of how package managers work.
+ecosyste.ms is in something of a unique position: having aggregated and normalized package data from over 70 sources we know something about how package managers work, and how they differ from one another.
+
+Working alongside the [CHAOSS Package Metadata Working Group](https://github.com/chaoss/wg-package-metadata) and [Alpha-Omega](https://alpha-omega.dev) we've documented the similarities and differences across package registries and clients, publishing five repositories of information about how package managers work today. In doing so we hope to identify common problems and work toward better practices:
 
 ## [Package Manager Commands](https://github.com/ecosyste-ms/package-manager-commands)
 
