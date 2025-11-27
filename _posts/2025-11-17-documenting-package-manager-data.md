@@ -8,7 +8,7 @@ Package managers are the quiet workhorses of computing. They make installing sof
 
 ecosyste.ms is in something of a unique position: having aggregated and normalized package data from over 70 sources we know something about how package managers work, and how they differ from one another.
 
-Working alongside the [CHAOSS Package Metadata Working Group](https://github.com/chaoss/wg-package-metadata) and [Alpha-Omega](https://alpha-omega.dev) we've documented the similarities and differences across package registries and clients, publishing five repositories of information about how package managers work today. In doing so we hope to identify common problems and work toward better practices:
+Working alongside the [CHAOSS Package Metadata Working Group](https://github.com/chaoss/wg-package-metadata) and [Alpha-Omega](https://alpha-omega.dev) we've documented the similarities and differences across package registries and clients, publishing six repositories of information about how package managers work today. In doing so we hope to identify common problems and work toward better practices:
 
 ## [Package Manager Commands](https://github.com/ecosyste-ms/package-manager-commands)
 
@@ -40,8 +40,14 @@ RSS and Atom feeds for tracking releases from package managers, registries, and 
 
 Feeds are organized by language and ecosystem.
 
+## [Package Manager Hooks](https://github.com/ecosyste-ms/package-manager-hooks)
+
+A reference documenting lifecycle hooks across package manager ecosystems, categorizing them into two types: package-defined hooks (scripts embedded by package authors that execute during installation, building, or publishing) and system/plugin hooks (extension points for users and tools to modify package manager behavior globally).
+
+Covers hooks across npm, Yarn, pnpm, Cargo, pip, Composer, RubyGems, Maven, Gradle, and many others. For each ecosystem, it documents when hooks execute, their implementation mechanisms, and security implications.
+
 ## Contributing
 
 These repositories collect what we've learned while researching the space. If you're building parsers, SBOM generators, or tools that work across package ecosystems, these might be useful references.
 
-All five repositories are released under CC0 1.0 Universal and accept contributions if you have corrections or additions.
+All six repositories are released under CC0 1.0 Universal and accept contributions if you have corrections or additions.
