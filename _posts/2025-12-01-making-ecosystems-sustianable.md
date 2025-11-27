@@ -20,6 +20,10 @@ Importantly our new governance structure gives every maintainer a voice in how t
 
 **Supporting the service**
 
-Finally, as you saw yesterday, we’re rate limiting access to [ecossyte.ms](http://ecossyte.ms)’ services and introducing a new commercial product to support the project financially. We’re also providing for Sponsors to become a part of our governance structure, inviting them to participate as members on our steering committee, bringing them close to the operations and finances of our non-profit business. 
+As you saw yesterday we’re rate limiting access to [ecossyte.ms](http://ecossyte.ms)’ services and introducing a new commercial product to support the project financially. We’re also providing for Sponsors to become a part of our governance structure, inviting them to participate as members on our steering committee, bringing them close to the operations and finances of our non-profit business. 
 
 If you’re interested in sponsoring [ecosyste.ms](http://ecosyste.ms) contact us at [hello@ecosyste.ms](mailto:hello@ecosyste.ms). 
+
+**Thanks**
+
+Finally we would like to thank Michael Winser, and Alpha-Omega for the thier support the past three months. Without their help ecossyte.ms would have been unable to make the improvements we have. With a little luck we hope these changes will give ecosyste.ms the push it needs to become a sustinable resource for developers, researchers and policymakers for the future. 
