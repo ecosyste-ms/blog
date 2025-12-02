@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --strict_front_matter
+
+      - name: Start Jekyll server
+        run: |
+          bundle exec jekyll serve --detach
+          sleep 5
+
+      - name: Check site is serving
+        run: |
+          curl --fail --silent --show-error http://127.0.0.1:4000/ > /dev/null
+          echo "Site is serving successfully"
