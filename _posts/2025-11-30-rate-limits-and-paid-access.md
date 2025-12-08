@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing rate limits and paid access"
-date: 2025-11-30 12:00 +1300
+date: 2025-12-09 12:00 +1300
 ---
 
 **In order to cover the cost of operating and maintaining ecosyste.ms we’re introducing rate limits and paid API access tiers.**
