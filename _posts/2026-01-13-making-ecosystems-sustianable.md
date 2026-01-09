@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Making ecossyte.ms sustainable"
-date: 2025-12-10 12:00 +1300
+date: 2026-01-13 12:00 +1300
 ---
 
 Yesterday we announced that [ecosyste.ms](http://ecosyste.ms) was introducing rate limits and paid-for access. Today we’d like to talk about the other work we’re doing to make [ecosyste.ms](http://ecosyste.ms) sustainable for the for foreseeable future:
