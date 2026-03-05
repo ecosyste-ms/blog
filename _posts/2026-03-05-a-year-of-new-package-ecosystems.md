@@ -4,7 +4,7 @@ title: "A year of new package ecosystems"
 date: 2026-03-05 12:00 +0000
 ---
 
-Over the past nine months we've added ten new ecosystems to [packages.ecosyste.ms](https://packages.ecosyste.ms), bringing the total to over 80 package registries tracked, indexing nearly 14 million packages and over 153 million versions.
+Over the past nine months we've added eleven new ecosystems to [packages.ecosyste.ms](https://packages.ecosyste.ms), bringing the total to over 80 package registries tracked, indexing nearly 14 million packages and over 153 million versions.
 
 ### [Helm](https://packages.ecosyste.ms/registries/artifacthub.io/packages)
 <span class="badge bg-primary rounded-pill">8,874 packages</span> <span class="badge bg-success rounded-pill">255,206 versions</span>
@@ -61,4 +61,4 @@ The Comprehensive TeX Archive Network has been home to LaTeX packages since 1992
 
 The Image Packaging System for illumos-based distributions, indexed via the OpenIndiana Hipster repository.
 
-All ten are available through the [packages API](https://packages.ecosyste.ms/docs) and [open data releases](https://packages.ecosyste.ms/open-data). If there's a package registry you'd like to see indexed, open an issue on the [packages repo](https://github.com/ecosyste-ms/packages) or get in touch at [hello@ecosyste.ms](mailto:hello@ecosyste.ms).
+All eleven are available through the [packages API](https://packages.ecosyste.ms/docs) and [open data releases](https://packages.ecosyste.ms/open-data). If there's a package registry you'd like to see indexed, open an issue on the [packages repo](https://github.com/ecosyste-ms/packages) or get in touch at [hello@ecosyste.ms](mailto:hello@ecosyste.ms).
