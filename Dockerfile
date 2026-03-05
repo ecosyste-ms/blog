@@ -1,7 +1,7 @@
 # ========================================================
 # Builder stage
 # ========================================================
-FROM ruby:3.4.7-alpine AS builder
+FROM ruby:4.0.1-alpine AS builder
 
 ENV APP_ROOT=/usr/src/app
 WORKDIR $APP_ROOT
@@ -32,7 +32,7 @@ COPY . $APP_ROOT
 # ========================================================
 # Final stage
 # ========================================================
-FROM ruby:3.4.7-alpine
+FROM ruby:4.0.1-alpine
 
 ENV APP_ROOT=/usr/src/app
 WORKDIR $APP_ROOT
