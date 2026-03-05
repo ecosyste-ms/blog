@@ -730,6 +730,14 @@ body {
 	color: $color-black;
 }
 
+.bg-primary {
+	background-color: $color-purple !important;
+}
+
+.bg-success {
+	background-color: $color-green-dark !important;
+}
+
 .listing {
 	border: 0;
 	border-radius: 0;
