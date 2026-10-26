@@ -18,9 +18,7 @@ This year's [CFP on the Software Stewardship Lab blog](https://stewardshiplab.or
 
 Talks should have a substantial technical focus on package management and software infrastructure. We particularly welcome topics that receive less attention elsewhere, and proposals from people and communities underrepresented in free and open source software. Frequently covered topics, such as adding AI to existing security approaches, will receive lower priority. Talks primarily promoting products will not be accepted.
 
-[Submit your proposal through FOSDEM's pretalx system](https://pretalx.fosdem.org/fosdem-2027/cfp), selecting **"Package Management"** as the track. We suggest including a brief biography for each speaker and links to relevant previous work.
-
-The default talk length is **20 minutes**, but if you would prefer a **10-minute** slot, request it in the "Submission Notes" field. The organisers should be able to accommodate it.
+[Submit your proposal through FOSDEM's pretalx system](https://pretalx.fosdem.org/fosdem-2027/cfp), selecting **"Package Management"** as the track. We suggest including a brief biography for each speaker and links to relevant previous work. Talks are **20 minutes** by default. If you would prefer a **10-minute** slot, request it in the "Submission Notes" field and the organisers should be able to accommodate it.
 
 - 25 October 2026: call for proposals opens
 - 1 December 2026, 23:59 UTC: submissions close
